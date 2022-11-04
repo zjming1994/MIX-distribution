@@ -14,15 +14,24 @@ Please download all of the files (code and folder 'dataset'), and place them ins
 ## Demo
 In mix_dist_two.py, we solve the proportions of two different components using simulation and realistic data. 
 
-In function main_draw(), path_A = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/3SL-MPB--34595 events.xlsx' and path_B = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/6SL-MPB--39240 events.xlsx' are data of two different components, each of them contains 2 dimensions. To illustrate our method, we set the proportions as 2:8, 4:6, 6:4 and 8:2, respectively, and then plot the results in train_plot.png. 
+### In function main_draw(), 
+path_A = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/3SL-MPB--34595 events.xlsx' 
 
-In function main_test(), 
+and path_B = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/6SL-MPB--39240 events.xlsx' 
 
-path_A = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/3SL-MPB--34595 events.xlsx' and 
+are data of two different components, each of them contains 2 dimensions. To illustrate our method, we set the proportions as 2:8, 4:6, 6:4 and 8:2, respectively, and then plot the results in train_plot.png. 
 
-path_B = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/6SL-MPB--39240 events.xlsx' are data of two different components, each of them contains 2 dimensions,
+### In function main_test(), 
 
-path_AB = 'dataset/Binary mixture dataset with varying ratios/3SL-MPB vs. 6SL-MPB = 0.5 vs. 0.5----20045 events.xlsx' is the data of their mixture with unknow proportion. main_test() will output the proportion of A and B, and then plot the results in test_plot4_6.png. 
+path_A = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/3SL-MPB--34595 events.xlsx' 
+
+and path_B = 'dataset/3SL-MPB + 6SL-MPB--individual dataset/6SL-MPB--39240 events.xlsx' 
+
+are data of two different components, each of them contains 2 dimensions,
+
+path_AB = 'dataset/Binary mixture dataset with varying ratios/3SL-MPB vs. 6SL-MPB = 0.5 vs. 0.5----20045 events.xlsx' 
+
+is the data of their mixture with unknow proportion. main_test() will output the proportion of A and B, and then plot the results in test_plot4_6.png. 
 
 ## Run time 
 Less than 10 seconds for our datasets. 
