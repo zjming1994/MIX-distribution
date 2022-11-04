@@ -3,10 +3,12 @@ Code for calculating mixed distribution of two different components.
 
 ## Requirements
 The version of Python interpreter is 3.9.7 on win 10, 
+
 As for some librarys or packages, we use: pandas 1.3.4, numpy 1.20.3, matplotlib 3.4.3 and scipy 1.7.1. 
 
 ## Installation 
 After installing the above requirements (or Anaconda on https://www.anaconda.com/). 
+
 Please download the codes, Excel files, and folder, and place them inside a new folder. 
 
 ## Demo
