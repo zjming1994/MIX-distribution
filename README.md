@@ -9,7 +9,7 @@ As for some librarys or packages, we use: pandas 1.3.4, numpy 1.20.3, matplotlib
 ## Installation 
 After installing the above requirements (or Anaconda on https://www.anaconda.com/). 
 
-Please download the codes, Excel files, and folder, and place them inside a new folder. 
+Please download all of the files (code, Excel files, folder '三组分子数据'), and place them inside a new folder. 
 
 ## Demo
 In mix_dist_two.py, we solve the proportions of two different components using simulation and realistic data. 
